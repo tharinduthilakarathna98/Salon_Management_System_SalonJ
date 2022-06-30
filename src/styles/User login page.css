@@ -1,0 +1,54 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/salonchair.jpg);
+    background-attachment: fixed;
+}
+label{
+	font-size: 50px;
+	color: #fff; 
+}
+.name{
+	width: 450px; 
+	height: 35px;
+}
+#username{
+ margin-top: 100px;
+ border-radius: 10px;
+  margin-left: 10px;
+}
+#password{
+ margin-top: 50px;
+ border-radius: 10px;
+ margin-left: 10px;
+}
+#Submit{
+  margin-top: 80px;
+  border:groove;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #73b0ba;
+}
+#Submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#Submit:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+.reg{
+   color: #fff;
+}
+.reg:hover {
+  color: yellow;
+
+}
+#Submit {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 18px 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 6px 5px;
+  transition: 0.45s;
+}

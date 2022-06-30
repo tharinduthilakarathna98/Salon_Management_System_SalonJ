@@ -1,0 +1,77 @@
+body{
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/salary.jpg);
+}
+
+h1{
+	padding: 1rem 1rem;
+	font-size:1.5rem;
+	color:whitesmoke;
+	text-align: center;
+}
+
+.input {
+	
+	margin:auto;
+	display:block;
+	width:400px;
+	padding: 1rem 1rem;
+	background:linear-gradient(to bottom right, #485461 0%, #28313B 74%);
+}
+
+.input table td{
+	
+	padding:.5rem;
+	color:#fff;
+}
+
+.input select{
+	
+	color:#43A047;
+	cursor:pointer;
+}
+
+.input button{
+	
+	margin:auto;
+	padding:.5rem .5rem;
+	color:#000;
+	font-weight:700;
+	cursor:pointer;
+}
+
+.output {
+	
+	margin:auto;
+	display:block;
+	width:400px;
+	padding: 1rem 1rem;
+	background:linear-gradient(to bottom right, #A9A9A9 0%, #28313B 74%);
+}
+
+.return button{
+	
+	display:flex;
+	margin:auto;	
+	padding: .5rem .5rem;
+	font-weight:700;
+	color:navyblue;
+	position:center;
+	cursor:pointer;
+	transition: 5s;
+	background:#A9A9A9;
+}	
+
+.return button a{
+
+	text-decoration:none;
+
+}
+
+.return button a:active{
+	
+	color: #CCCC00;
+	text-decoration:none;
+}

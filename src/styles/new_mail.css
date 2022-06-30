@@ -1,0 +1,83 @@
+body {
+	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/background.jpg);}
+
+.new_mail-page{
+	width: 460px;
+	height:50%;
+	padding: 1rem;
+	margin: auto;
+}
+
+.form{
+	
+	position:relative;
+	z-index: 1;
+	background: linear-gradient(to bottom right, #303030, #101010);
+	max-width:360px;
+	margin:0 auto 100px;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 5px 5px 5px;
+}
+
+.form input{
+	
+	font-family: "Roboto" , sans-serif;
+	outline: 1;
+	background: #EFEFEF;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	
+}
+
+.form textarea{
+	
+	font-family: "Roboto" , sans-serif;
+	outline: 1;
+	background: #EFEFEF;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	
+}
+
+
+.form button{
+	
+	font-size:14px;
+	text-transform: uppercase;
+	outline: 0;
+	background: #0066CC;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color:#EFEFEF;
+	cursor:pointer;
+	transition: .5s;
+}
+
+.form button:hover,
+.form button:active {
+	background: #43A047;
+}
+
+
+h1{
+	margin:0;
+	padding:.5rem 1rem;
+	text-align:center;
+	font-size:22px;
+	color:whitesmoke;
+	font-family: 'Poppins', sans-serif;
+}

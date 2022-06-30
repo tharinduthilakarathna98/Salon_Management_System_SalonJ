@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body
+{
+overflow-x: hidden;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+}
+.navigation
+{
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    background: #003140;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation.active
+{
+    width: 60px;
+}
+.navigation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navigation ul li
+{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.navigation ul li:hover
+{
+    background: #03a9f4;
+}
+.navigation ul li:nth-child(1)
+{
+    margin-bottom: 20px;
+}
+.navigation ul li:nth-child(1):hover
+{
+    background: transparent;
+}
+.navigation ul li a
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    
+}
+.navigation ul li a .icon img
+{
+    color: white;
+    font-size: 24px;
+}
+.navigation ul li a .title
+{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}

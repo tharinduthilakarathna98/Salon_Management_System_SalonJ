@@ -1,0 +1,158 @@
+@import url('https:://fonts.googleapis.com/css?family=josefin+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+	background-color: #F3F3F3;
+}
+
+.wrapper{
+	
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.wrapper .left{
+	
+	width: 35%;
+	background: linear-gradient(to bottom, #B76E79 25%, #A85F6A 75%);
+	padding: 30px 25px;
+	text-align: center;
+	color: #FFF;
+}
+
+.wrapper .left img {
+	
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.wrapper .left h4 {
+	
+	margin-bottom: 10px;
+}
+
+.wrapper .left p{
+	
+	font-size: 15px;
+}
+
+.wrapper .right{
+	width: 100%;
+	background: #FFF;
+	padding: 30px 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius :5px;
+}
+
+.wrapper .right .info{
+	margin-bottom:25px;
+}
+
+.wrapper .right .info h3{
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #E0E0E0;
+	color: #353C4E;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.wrapper .right .info-data {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-direction:column;
+}
+
+.wrapper .right .info-data .row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wrapper .right .info-data h5{
+	color: #354C4E;
+	margin-bottom: 5px;
+}
+
+.wrapper .right .info-data .answer{
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #919AA3;
+}
+
+.wrapper .social-media ul{
+	display: flex;
+}
+
+.wrapper .social-media ul li a{
+	width: 45px;
+	height: 45px;
+	background: linear-gradient(to right, #02A9AC, #01DBDF); 
+	margin-right: 10px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.wrapper .social-media ul li a{
+	color: #FFF;
+	display: block;
+	font-size: 18px;
+	align-items :center;
+}
+
+.wrapper .right .edit a {
+	
+	background-color:#B30000; 
+	color: #fff;
+	padding: .4rem 1rem;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.wrapper .right .edit a:hover{
+	
+	color:#1A8CFF;
+}
+
+.wrapper .footer .footer-bar {
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height:;
+	background-color:pink;
+	color:#B76E79;
+	text-align: center;
+	padding: 1rem;
+}
+
+.wrapper .footer .footer-bar a{
+	
+	padding: .2rem;
+	color: #000;
+	font-size: .8rem;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.wrapper .footer .footer-bar a:active{
+	color:#B76E79;
+}

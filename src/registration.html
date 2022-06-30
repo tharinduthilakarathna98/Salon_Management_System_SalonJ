@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User_Registration_Page</title>
+	<link rel="stylesheet" type="text/css" href="styles/register.css">
+	
+</head>
+<body>
+	
+
+	<content>
+		<a href="Home.html"><img src="images/previous.png" width="40px" style="margin-right: 580px; margin-top: 45px;"></a>
+
+		 <center>
+		 	
+		<div class="hed">
+
+		<h1 style="color: #fff; font-size: 50px;">Register</h1>
+     </div>
+	
+	
+  <form action="userprofile.php" method="post">
+  <div class="box">
+    <label>Firstname</label>
+    <input type="text" id="first" name="first" />
+    <br/><br/>
+
+    <label>Lastname</label>
+    <input type="text" id="last" name="last" class="name"/>
+    <br/> <br/>
+	
+	<label> Birthday</label>
+	<input type="date" id="birthday" name="birthday" >
+    <br/> <br/>
+    <label>Email</label><br/><br/>
+    <input type="text" id="email" name="email"  class="email"/ style="margin-left: -90px;">
+    <br/> <br/>
+
+     <label>Phone</label><br/><br/>
+     <input type="text" id="phone" name="number"  class="number"/ style="margin-left: -90px;">
+    <br/> <br/>
+
+    <label>Gender &nbsp</label>
+    <label ><input type="radio" name="gender" id="m" class="gender" value="male">Male</label>
+    <label><input type="radio" name="gender" id="f" class="gender" value="female">Female</label>
+    <br/><br/><br><br>
+
+     <label>Address</label>
+     <input type="text" id="address" name="address"  class="address">
+    <br/> <br/>
+
+     <label>Enter New Passward</label>
+     <input type="Password" id="password" name="password"  class="password">
+    <br/> <br/>
+     <label>Reenter Password</label>
+	 <input type="Password" id="password1" name="password1"  class="password">
+	 <br/> <br/>
+    <div style="color: #fff;">
+    <p class="statement"><input type="checkbox" name="agree-statement" id="statement">I accept privacy and policy term conditions</p>
+    </div>
+     <br><br>
+    <input type="submit" name="submit" onclick="return valid()" value="REGISTER" id="submit">
+	
+	<script>
+	//form validation 
+	function valid(){
+	//name
+	var f=document.getElementById("first").value;
+	var l=document.getElementById("last").value
+	
+	if(f==""|| l==""){
+	alert("Name is empty");
+	return false;
+	}
+	//phone number
+	var p=document.getElementById("phone").value;
+	if(p.length>11){
+	
+	alert("phone number is invalid");
+	return false;
+	}
+	if(isNaN(p)){
+	
+	alert("Enter the valid value for phone filed");
+	return false;
+	}
+	//gender check
+	var male= document.getElementById("m").checked;
+	var female=document.getElementById("f").checked;
+	
+	if(male==false && female==false){
+	
+	alert("select gender");
+	return false;
+	}
+	//password check
+	var p=document.getElementById("password").value;
+	var re=document.getElementById("password1").value;
+	if(p.length<9){
+	alert("password should not be less than 8 character");
+	return false;
+	}
+	if(p!=re){
+	alert("Password not matching");
+	return false;
+	}
+	
+	var check=document.getElementById("statement").checked;
+	
+	if(check==false){
+	alert("Please accept privacy and policy terms and condition");
+	return false;
+	}
+    }
+	</script>
+	</div>
+    <br><br>
+          
+
+
+  </form>
+</content>
+</center>
+
+</body>
+</html>

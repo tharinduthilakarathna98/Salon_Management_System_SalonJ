@@ -1,0 +1,128 @@
+
+body {
+	
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/backg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 150px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	border-style: groove #fff;
+	
+
+}
+.find{
+	background-color:#999966;
+	padding:20px;
+}
+.logo {
+	width: 0%;
+	float: left;
+	line-height: 175px;
+	margin-right: 150px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+
+
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+	display: inline-block;
+
+
+}
+nav a:hover{
+	color: red;
+ }
+ .wrapper1
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}/*find a salon */
+
+.card
+{
+	height: 820px;
+	width: 320px;
+	background-color: rgb(77, 67, 77);
+	
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	text-align: center !important
+	
+}/*find a salon */
+
+.find
+{   
+	
+	display: flex;
+	justify-content: center;
+	align-items: center
+}/*find a salon */
+.serve:hover{
+	transform: translateY(-12px);
+}
+.serve{
+	
+	transition: transform 0.5s;
+}
+.footer{
+	margin-left: 30px;
+}
+.footer a h2{
+	color: #fff;
+	font-size: 15px;
+	
+}
+.footer a {
+	text-decoration: none;
+}
+.foot-hr{
+	color: #fff;
+	border: 3px solid #fff;
+	margin-top: 20px;
+}
+.payments-store{
+	margin-left: 30px;
+}
+#youtube{
+	margin-left: 820px;
+}
+#master{
+	margin-left: 30px;
+}
+#play{
+	margin-left: 30px;
+}
+#tweet{
+	margin-left: 30px;
+}
+#facebook{
+	margin-left: 30px;
+}
+#insta{
+	margin-left: 30px;
+}
+#user{
+	margin-left: 950px;
+}
